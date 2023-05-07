@@ -1,0 +1,37 @@
+.Main-header{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.back{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.Main-header-heading{
+    font-weight: 500;
+    font-size: 35px;
+}
+.Main-header-para{
+    font-weight: 400;
+}
+.Main-header-button-text{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    background-color:#2874f0;
+    color: aliceblue;
+    border: 0px solid black;
+    border-radius: 5px;
+}
